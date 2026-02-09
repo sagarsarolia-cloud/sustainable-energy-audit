@@ -1,0 +1,261 @@
+[
+  {
+    "id": "6c2435bd",
+    "original_image": "uploads/interior-designers.jpg",
+    "image_hash": "8bea478577ef2f61f9a4ab8d8dd2b9732735b61416488bb03b570c821e4d8033",
+    "heatmap_image": "uploads/interior-designers_heatmap.jpg",
+    "analysis": {
+      "summary": "Living room shows one split AC, one ceiling fan, multiple recessed downlights, one decorative chandelier, and one window wall with curtains. Biggest savings come from upgrading downlights/chandelier to efficient LEDs, ensuring AC is inverter-rated and well-sealed around the window/curtain perimeter, and using fan-first cooling in Jaipur\u2019s mild 20.62\u00b0C conditions.",
+      "energy_score": 72,
+      "weather_context": "20.62\u00b0C, haze",
+      "opportunities": [
+        {
+          "title": "Split AC (wall-mounted) \u2013 likely non-inverter/older efficiency",
+          "description": "One wall-mounted split AC detected. Older/non-inverter units commonly draw higher average power and short-cycle, especially with leaky window/curtain edges.",
+          "fix_action": "Upgrade to 5-star inverter split AC (properly sized) and ensure installation sealing; use 24\u201326\u00b0C setpoint with fan assist.",
+          "current_watts": 1600,
+          "efficient_watts": 950,
+          "hours_per_day": 8,
+          "box_2d": [
+            208,
+            78,
+            292,
+            267
+          ],
+          "savings_monthly_inr": 1560
+        },
+        {
+          "title": "Ceiling Fan \u2013 standard AC induction type",
+          "description": "One ceiling fan detected. Conventional fans are typically 70\u201380W at high speed.",
+          "fix_action": "Replace with BLDC fan (or use BLDC regulator) to cut fan energy ~50\u201365%.",
+          "current_watts": 75,
+          "efficient_watts": 28,
+          "hours_per_day": 10,
+          "box_2d": [
+            124,
+            365,
+            322,
+            461
+          ],
+          "savings_monthly_inr": 141
+        },
+        {
+          "title": "Decorative chandelier/ring light fixture \u2013 higher watt decorative LEDs",
+          "description": "One multi-arm decorative ceiling fixture detected; decorative fixtures often use higher total wattage than needed for ambient lighting.",
+          "fix_action": "Use a high-efficacy dimmable LED fixture or reduce driver power; add scene control (dim/only task lighting).",
+          "current_watts": 80,
+          "efficient_watts": 40,
+          "hours_per_day": 4,
+          "box_2d": [
+            0,
+            244,
+            182,
+            448
+          ],
+          "savings_monthly_inr": 48
+        },
+        {
+          "title": "Recessed ceiling downlight #1 (left)",
+          "description": "One recessed round downlight detected; older halogen or low-efficacy LED can be 12\u201315W.",
+          "fix_action": "Replace with 7\u20139W high-efficacy LED downlight (>=100 lm/W).",
+          "current_watts": 12,
+          "efficient_watts": 7,
+          "hours_per_day": 6,
+          "box_2d": [
+            75,
+            35,
+            114,
+            76
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Recessed ceiling downlight #2 (center-left)",
+          "description": "One recessed round downlight detected.",
+          "fix_action": "Replace with 7\u20139W high-efficacy LED downlight.",
+          "current_watts": 12,
+          "efficient_watts": 7,
+          "hours_per_day": 6,
+          "box_2d": [
+            155,
+            242,
+            189,
+            277
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Recessed ceiling downlight #3 (center)",
+          "description": "One recessed round downlight detected.",
+          "fix_action": "Replace with 7\u20139W high-efficacy LED downlight.",
+          "current_watts": 12,
+          "efficient_watts": 7,
+          "hours_per_day": 6,
+          "box_2d": [
+            155,
+            414,
+            189,
+            448
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Recessed ceiling downlight #4 (right)",
+          "description": "One recessed round downlight detected.",
+          "fix_action": "Replace with 7\u20139W high-efficacy LED downlight.",
+          "current_watts": 12,
+          "efficient_watts": 7,
+          "hours_per_day": 6,
+          "box_2d": [
+            170,
+            493,
+            205,
+            529
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Window/glazing \u2013 heat gain/loss through glass",
+          "description": "Large window section behind curtains can be a major thermal path (solar gain in summer, heat loss in winter nights).",
+          "fix_action": "Use low-E film/double glazing where feasible; keep curtains closed during peak sun; add exterior shading if possible.",
+          "current_watts": 0,
+          "efficient_watts": 0,
+          "hours_per_day": 0,
+          "box_2d": [
+            235,
+            0,
+            451,
+            184
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Curtains/drapes \u2013 possible air leakage at edges/top",
+          "description": "Curtains detected; gaps around curtain edges/top often allow warm air infiltration and AC loss.",
+          "fix_action": "Add curtain pelmet/valance, ensure full coverage to floor, seal window frame gaps; consider thermal/blackout lining.",
+          "current_watts": 0,
+          "efficient_watts": 0,
+          "hours_per_day": 0,
+          "box_2d": [
+            232,
+            0,
+            506,
+            203
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Thermal leak source \u2013 window frame/perimeter infiltration zone",
+          "description": "Likely leakage at window perimeter (frame-to-wall, sliding tracks) contributing to AC load.",
+          "fix_action": "Weatherstrip/window track seal, silicone caulk at frame joints; ensure tight latch/closing.",
+          "current_watts": 0,
+          "efficient_watts": 0,
+          "hours_per_day": 0,
+          "box_2d": [
+            238,
+            0,
+            468,
+            194
+          ],
+          "savings_monthly_inr": 10
+        }
+      ],
+      "trees_planted_equivalent": 89.5,
+      "total_monthly_savings_inr": 1819,
+      "heatmap_path": "uploads/interior-designers_heatmap.jpg"
+    },
+    "timestamp": "2026-02-09"
+  },
+  {
+    "id": "e357adf1",
+    "original_image": "uploads/ac-living-room-600nw-2644606059.jpg.webp",
+    "image_hash": "cca08cb71e640b9b414b6434be6ce9ad22aa9f8acd15016e2d9d3a1cbb414815",
+    "heatmap_image": "uploads/ac-living-room-600nw-2644606059_heatmap.jpg.webp",
+    "analysis": {
+      "summary": "Living room shows one split AC, two lamps, and one window. Biggest savings come from upgrading AC to inverter/high-SEER and swapping lamp bulbs to LEDs. Window is a likely thermal leak source; add sealing and reflective/insulating window treatment to reduce AC load in Jaipur conditions.",
+      "energy_score": 72,
+      "weather_context": "20.62\u00b0C, haze",
+      "opportunities": [
+        {
+          "title": "Wall-Mounted Split AC (Non-inverter/older efficiency assumed)",
+          "description": "Split AC detected; older fixed-speed units commonly draw higher power and cycle frequently, increasing consumption and discomfort.",
+          "fix_action": "Upgrade to 5-star inverter split AC (right-sized; clean filters; set 24\u201326\u00b0C; use sleep/eco mode).",
+          "current_watts": 1700,
+          "efficient_watts": 1100,
+          "hours_per_day": 8,
+          "box_2d": [
+            58,
+            324,
+            156,
+            584
+          ],
+          "savings_monthly_inr": 1440
+        },
+        {
+          "title": "Floor Lamp (Likely incandescent/CFL bulb)",
+          "description": "Standing floor lamp detected; older bulbs waste energy as heat.",
+          "fix_action": "Replace bulb with 9W LED (warm white 2700\u20133000K).",
+          "current_watts": 60,
+          "efficient_watts": 9,
+          "hours_per_day": 6,
+          "box_2d": [
+            280,
+            130,
+            510,
+            275
+          ],
+          "savings_monthly_inr": 91
+        },
+        {
+          "title": "Table Lamp (Likely incandescent/CFL bulb)",
+          "description": "Table lamp on side table detected; older bulbs are inefficient and add heat load.",
+          "fix_action": "Replace bulb with 7\u20139W LED.",
+          "current_watts": 60,
+          "efficient_watts": 9,
+          "hours_per_day": 6,
+          "box_2d": [
+            315,
+            780,
+            515,
+            905
+          ],
+          "savings_monthly_inr": 91
+        },
+        {
+          "title": "Window - Single glazing/air leakage risk",
+          "description": "Window detected; likely conductive and infiltration losses/gains around frame. In Jaipur, reducing solar gain and sealing leaks lowers cooling energy.",
+          "fix_action": "Add weatherstripping/caulk, install reflective film or double-layer curtains; consider double glazing for long-term upgrade.",
+          "current_watts": 0,
+          "efficient_watts": 0,
+          "hours_per_day": 24,
+          "box_2d": [
+            155,
+            0,
+            520,
+            125
+          ],
+          "savings_monthly_inr": 10
+        },
+        {
+          "title": "Window Frame/Perimeter Thermal Leak",
+          "description": "Likely air leakage at window perimeter (common infiltration point). This increases AC runtime and dust ingress (haze conditions).",
+          "fix_action": "Seal gaps with silicone/PU sealant; add compression weatherstrips; ensure tight latch alignment.",
+          "current_watts": 0,
+          "efficient_watts": 0,
+          "hours_per_day": 24,
+          "box_2d": [
+            160,
+            0,
+            525,
+            135
+          ],
+          "savings_monthly_inr": 10
+        }
+      ],
+      "trees_planted_equivalent": 80.8,
+      "total_monthly_savings_inr": 1642,
+      "heatmap_path": "uploads/ac-living-room-600nw-2644606059_heatmap.jpg.webp"
+    },
+    "timestamp": "2026-02-09"
+  }
+]

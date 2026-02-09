@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+google-generativeai
+opencv-python-headless
+numpy
+requests
+python-dotenv
